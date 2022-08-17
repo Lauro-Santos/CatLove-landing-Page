@@ -1,0 +1,100 @@
+.form_container {
+    
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    margin-top: 100px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+}
+
+.form_container h1 {
+    width: 431px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.form_container form {
+    padding-top: 30px;
+}
+
+.form_container form input {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.form_container input::placeholder {
+    font-family: Lato, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.form_container form div {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.form_container form div label {
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.form_container form div button {
+    width: 100px;
+    height: 50px;
+    background-color: #4f3aa7;
+    border-radius: 24px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.form_container form div a {
+    padding: 14px 21px 14px 21px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 16px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+#birthday {
+    margin-top: 0;
+    margin-left: 0;
+    width: 20%;
+}
